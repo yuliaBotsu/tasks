@@ -6,4 +6,4 @@ CREATE TABLE student(
 
 SELECT avg(marks) AS marksaverage from student
 GROUP BY id
-HAVING count(marks)>40
+HAVING count(marks)>=40
